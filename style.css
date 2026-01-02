@@ -37,9 +37,32 @@
     bottom: 0;
 }
 
+.tra {
+    width: 50% !important;
+}
+
+.trass div{
+    width: 50%;
+}
+
 @media (max-width:768px) {
     .sec-1 div img {
         height: 70%;
     }
 }
+
+@media (max-width:992px) {
+     .tra {
+        width: 100% !important;
+    }
+
+    .trass img {
+        display: none;
+    }
+    .trass div {
+        width: 100%;
+    }
+}
+
+
 
