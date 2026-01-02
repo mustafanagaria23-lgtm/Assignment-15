@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Dancing+Script:wght@400..700&family=Pacifico&display=swap');
-
-.body {
-    font-family: "Bricolage Grotesque", "Space Grotesk", sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
+* {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
 .cream-clr {
     background-color: #f9e6d0;
 }
@@ -23,6 +24,18 @@
 .clr1 {background-color: #efc01d;}
 .clr2 {background-color: #00a896;}
 .clr3 {background-color: #f39cac;}
+
+.xtra {
+    height: 25vh;
+    position: relative;
+    margin-top: 20vh;
+}
+
+.xtra img {
+    height: 150%;
+    position: absolute;
+    bottom: 0;
+}
 
 @media (max-width:768px) {
     .sec-1 div img {
